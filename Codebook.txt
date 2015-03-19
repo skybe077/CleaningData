@@ -1,0 +1,19 @@
+Course Project CodeBook
+
+1. Problems with originating datasets 
+ - variable names 
+ - data representations 
+ 
+ 2. Variable labels, and data explanations 
+ - 69 columns!!!! Hmmm....
+ 
+ 3. Source material
+
+Overview
+Based on data extracted and transformed from "Human Activity Recognition Using Smartphones Dataset" training and test datasets.
+ 
+The spreadsheet contains records for 237 patients, one record per patient.
+
+If you have questions about the data, please call Joan Doe at 555-5555 (office) or 555-6666 (pager) or email Joan_Doe@ucdavis.edu
+ 
+ 
