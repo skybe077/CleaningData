@@ -26,6 +26,9 @@ The originating datasets (Test, Train) had the following issues:
 3. Labels were somewhat messy normalised 
 4. Measurements were not collapsed into (subject, activity) pairs
 
+As per instructions, I merged, averaged the datasets, and cleaned up the labels. 
+The only addition is the "origin" variable which identifies the originating dataset. 
+
 See readMe.txt	--> *Usage* section for steps that merged, transformed and tidied these datasets into the final dataset.
 
 ##Variables##
