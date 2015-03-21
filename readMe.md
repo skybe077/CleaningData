@@ -93,7 +93,7 @@ This function assumes that the datasets are stored in your current working direc
 
 1 data frame of all measurements with this metadata: subject, activity, origin
 
-####2. mergeSets(trainSet, testSet#### 
+####2. mergeSets(trainSet, testSet) 
 
 Takes 2 datasets and merges them into 1 super dataset.
 It then subsets Mean, Std Dev measuremtents and metadata (subject, activity, and origin) from this dataset.
