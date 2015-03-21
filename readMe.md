@@ -1,37 +1,48 @@
 #Course Project Readme#
 ---
+
 Course: Getting and Cleaning Data 
+
 User: Edwin Tam 
+
 Github URL: https://github.com/skybe077/CleaningData
+
 Coursera profile: https://www.coursera.org/user/i/85db0de11cdecf496c46ca1f28de7d6a
+
 ---
 
 ##Overview##
 ---  
 This course project focuses on creating a tidy dataset from 2 datasets in "Human Activity Recognition Using Smartphones Dataset".
+
 Instructions are to:
+
 1. Merge Train and Test datasets
 2. Extract mean and std deviation measurements 
 3. Describe Activity labels 
 4. Label dataset variables appropriately 
 5. Get the Average of each variable for each activity and each subject
 
+
 This Readme describes the files, usage and functions to fulfil above instructions. 
 
 ##Files##
 ---
-1. Project.R
+**1. Project.R**
 R file that contains wrapper and helper functions used to merge, transform and clean the original datasets
+URL: https://github.com/skybe077/CleaningData/blob/master/Project.R
 
-2. tidyData_ET.csv
+**2. tidyData_ET.csv**
 Tidied dataset for evaluation. There are 69 fields with 180 observations. 
 Metadata fields (3): subject, activity, origin.
 Data fields (66): The average of Mean and Standard Deviation measurements 
+URL: https://github.com/skybe077/CleaningData/blob/master/tidyData_ET.csv
 
-3.Codebook.md 
+**3. Codebook.md** 
 Explanation of variables and data in tidyData_ET dataset.
+URL: https://github.com/skybe077/CleaningData/blob/master/Codebook.md
 
-4. Readme.md
+**4. Readme.md**
 Overview of what's going on. You're reading me now! 
 
 ##Usage##
