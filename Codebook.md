@@ -33,11 +33,12 @@ These labels are divided into 2 categories: Metadata (3) & Measurements (66)
 ####Metadata (3)####
 Information about the volunteers and activities that they took part in. It also includes information about the originating dataset. 
 
-| Label | **subject**  | **activity** | **origin** |
-| ------------- | ------------- | ------------- | ------------- |
-| **Description** | unique IDs for volunteers   | Activity done by volunteer | Subject source dataset | 
-| **Type** | Number | Character | Character | 
-| **Value** | Starts from 1   | walking; walking_upstairs; walking_downstairs; sitting; standing; laying  | test; train | 
+
+| **Label** | **Description** |  **Type** | **Value** |
+| :------------- | :------------- | :------------- | :------------- |
+**subject**  | unique IDs for volunteers   | Number | Starts from 1   |
+**activity** | Activity done by volunteer | Character |   walking; walking_upstairs; walking_downstairs; sitting; standing; laying  |
+**origin** | Subject source dataset | Character | test; train | 
 
 
 
