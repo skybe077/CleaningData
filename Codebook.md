@@ -55,13 +55,13 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 5. f - Fast Fourier Transform set 
 
 | **Label** | **tBodyAcc_mean_XYZ**  | **tBodyAcc_stdDev_XYZ** | **tGravityAcc_mean_XYZ** |
-| ------------- | ------------- | ------------- | ------------- |
+|:------------- | ------------- | ------------- | ------------- |
 | **Description** | Time set for average Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z).  | Time set for standard deviation Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for mean Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | 
 | **Type** | Double | Double | Double | 
 
 
 | **Label** | **tBodyAccJerk_mean_XYZ**  | **tBodyGyro_mean_XYZ** | **tBodyGyroJerk_mean_XYZ** |
-| ------------- | ------------- | ------------- | ------------- |
+|:------------- | ------------- | ------------- | ------------- |
 | **Description** | Time set for mean Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Time set for mean Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for mean Body Gyroscope Jerk. Individual axis measurements (e.g. _X, _Y, _Z). | 
 | **Type** | Double | Double | Double | 
 
