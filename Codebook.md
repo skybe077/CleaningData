@@ -126,19 +126,16 @@ Double
 |:------------- | :------------- | :------------- | 
 **tBodyAcc_stdDev_XYZ** | Time set for standard deviation Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Double |
 **tGravityAcc_stdDev_XYZ** | Time set for standard deviation Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
+**tBodyAccJerk_stdDev_XYZ**  | Time set for standard deviation Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Double | 
+**tBodyGyro_stdDev_XYZ** | Time set for standard deviation Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
+**tBodyGyroJerk_stdDev_XYZ** | Time set for standard deviation Body Gyroscope Jerk. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
+**tBodyAccMag_stdDev** | Time set for standard deviation Body Acceleration magnitude. |Double | 
+**tGravityAccMag_stdDev** | Time set for standard deviation Gravity Acceleration magnitude.  | Double | 
+**tBodyAccJerkMag_stdDev** | Time set for standard deviation Body Acceleration Jerk magnitude. |Double | 
+**tBodyGyroMag_stdDev** | Time set for standard deviation Body Gyroscope magnitude. |Double | 
+**tBodyGyroJerkMag_stdDev** | Time set for standard deviation Body Gyroscope Jerk magnitude. |Double | 
 
-
-
-| **Label** | **tBodyAccJerk_stdDev_XYZ**  | **tBodyGyro_stdDev_XYZ** | **tBodyGyroJerk_stdDev_XYZ** |
-|:------------- | ------------- | ------------- | ------------- |
-| **Description** | Time set for standard deviation Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Time set for standard deviation Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for standard deviation Body Gyroscope Jerk. Individual axis measurements (e.g. _X, _Y, _Z). | 
-| **Type** | Double | Double | Double | 
-
-| **Label** | **tBodyAccMag_stdDev** | **tGravityAccMag_stdDev** | **tBodyAccJerkMag_stdDev** | **tBodyGyroMag_stdDev** | **tBodyGyroJerkMag_stdDev** | 
-|:------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| **Description** | Time set for standard deviation Body Acceleration magnitude. | Time set for standard deviation Gravity Acceleration magnitude.  | Time set for standard deviation Body Acceleration Jerk magnitude. | Time set for standard deviation Body Gyroscope magnitude. | Time set for standard deviation Body Gyroscope Jerk magnitude. | 
-| **Type** | Double | Double | Double | Double | Double | 
-
+    
 
 
 | **Label** | **fBodyAcc_stdDev_XYZ** | **fBodyAccJerk_stdDev_XYZ** | **fBodyGyro_stdDev_XYZ** |
