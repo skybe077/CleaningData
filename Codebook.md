@@ -54,9 +54,9 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 4. t - time set
 5. f - Fast Fourier Transform set 
 
-| **Label** | **tBodyAcc_mean_XYZ**  | **tBodyAcc_stdDev_XYZ** | **tGravityAcc_mean_XYZ** |
-|:------------- | ------------- | ------------- | ------------- |
-| **Description** | Time set for average Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z).  | Time set for standard deviation Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for mean Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | 
+| **Label** | **tBodyAcc_mean_XYZ**  | **tGravityAcc_mean_XYZ** | | 
+|:------------- | ------------- | ------------- |
+| **Description** | Time set for average Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z).  | Time set for mean Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). |  | 
 | **Type** | Double | Double | Double | 
 
 
@@ -66,23 +66,18 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 | **Type** | Double | Double | Double | 
 
 
-| **Label** | **tBodyAccMag_mean**  | **tGravityAccMag_mean** | **tBodyAccJerkMag_mean** | **tBodyGyroMag_mean** |
-|:------------- | ------------- | ------------- | ------------- |------------- |
-| **Description** | Time set for mean Body Acceleration Magnitude.  | Time set for mean Gravity Acceleration Magnitude.  | Time set for mean Body Acceleration Jerk Magnitude. | Time set for mean Body Gyroscope Magnitude. |
-| **Type** | Double | Double | Double | Double | 
+| **Label** | **tBodyAccMag_mean**  | **tGravityAccMag_mean** | **tBodyAccJerkMag_mean** |
+|:------------- | ------------- | ------------- | ------------- |
+| **Description** | Time set for mean Body Acceleration Magnitude.  | Time set for mean Gravity Acceleration Magnitude.  | Time set for mean Body Acceleration Jerk Magnitude. | 
+| **Type** | Double | Double | Double | 
+
+| **Label** | **tBodyGyroMag_mean**  | **tBodyGyroJerkMag_mean** |  
+|:------------- | ------------- | ------------- | ------------- | 
+| **Description** | Time set for mean Body Gyroscope Magnitude.  | Time set for mean Body Gyroscope Jerk Magnitude.  |  
+| **Type** | Double | Double | 
 
 
 
-
-
-*values*
-Double 
-
-**tBodyGyroJerkMag_mean**
-Time set for mean Body Gyroscope Jerk Magnitude.
-
-*values*
-Double 
 
 **fBodyAcc_mean_XYZ**
 Fast Fourier Time set for mean Body Acceleration in XYZ axis.
@@ -126,48 +121,25 @@ Fast Fourier Time set for mean Body Gyroscope Jerk magnitude.
 *values*
 Double 
 
-**tGravityAcc_stdDev_XYZ**
-Time set for standard deviation Gravity Acceleration in XYZ axis. 
 
-*values*
-Double 
-
-**tBodyAccJerk_stdDev_XYZ**
-Time set for standard deviation Body Acceleration Jerk in XYZ axis. 
-
-*values*
-Double 
-
-**tBodyGyro_stdDev_XYZ**
-Time set for standard deviation Body Gyroscope in XYZ axis. 
-
-*values*
-Double 
-
-**tBodyGyroJerk_stdDev_XYZ**
-Time set for standard deviation Body Gyroscope Jerk in XYZ axis. 
-
-*values*
-Double 
-
-**tBodyAccMag_stdDev**
-Time set for standard deviation Body Acceleration magnitude. 
-
-*values*
-Double 
-
-**tGravityAccMag_stdDev**
-Time set for standard deviation Gravity Acceleration magnitude. 
-
-*values*
-Double 
+| **Label** | **tBodyAcc_stdDev_XYZ** | **tGravityAcc_stdDev_XYZ** | | 
+|:------------- | ------------- | ------------- | ------------- |
+| **Description** | Time set for standard deviation Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for standard deviation Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). |  | 
+| **Type** | Double | Double | Double | 
 
 
-**tBodyAccJerkMag_stdDev**
-Time set for standard deviation Body Acceleration Jerk magnitude. 
+| **Label** | **tBodyAccJerk_stdDev_XYZ**  | **tBodyGyro_stdDev_XYZ** | **tBodyGyroJerk_stdDev_XYZ** |
+|:------------- | ------------- | ------------- | ------------- |
+| **Description** | Time set for standard deviation Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Time set for standard deviation Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for standard deviation Body Gyroscope Jerk. Individual axis measurements (e.g. _X, _Y, _Z). | 
+| **Type** | Double | Double | Double | 
 
-*values*
-Double 
+| **Label** | **tBodyAccMag_stdDev** | **tGravityAccMag_stdDev** | **tBodyAccJerkMag_stdDev** |
+|:------------- | ------------- | ------------- | ------------- |
+| **Description** | Time set for standard deviation Body Acceleration magnitude. Individual axis measurements (e.g. _X, _Y, _Z).  | Time set for standard deviation Gravity Acceleration magnitude. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for standard deviation Body Acceleration Jerk magnitude. Individual axis measurements (e.g. _X, _Y, _Z). | 
+| **Type** | Double | Double | Double | 
+
+
+
 
 **tBodyGyroMag_stdDev**
 Time set for standard deviation Body Gyroscope magnitude. 
