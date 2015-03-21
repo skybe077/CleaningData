@@ -18,11 +18,14 @@ Codebook based on data extracted and transformed from "Human Activity Recognitio
 The spreadsheet (tidyData_ET.csv) contains 180 observations - one observation per (subject, activity, origin) metadata set.
 Each observation has 66 measurements (e.g. tBodyAcc_mean_X, tGravityAcc_mean_Y etc) averaged from the originating dataset. 
 
-Useful Files
+**Useful Files**
 
 **1. Project.R**: https://github.com/skybe077/CleaningData/blob/master/Project.R
+
 **2. tidyData_ET.csv**: https://github.com/skybe077/CleaningData/blob/master/tidyData_ET.csv
+
 **3. Codebook.md**: https://github.com/skybe077/CleaningData/blob/master/Codebook.md
+
 **4. Readme.md**: https://github.com/skybe077/CleaningData/blob/master/readMe.md
 
 ##Transformation##
@@ -37,7 +40,7 @@ The originating datasets (Test, Train) had the following issues:
 As per instructions, I merged and averaged the datasets, and cleaned up the labels. 
 The only addition is the "origin" variable which identifies the originating dataset. 
 
-See readMe.txt	--> *Usage* section for steps that merged, transformed and tidied these datasets into the final dataset.
+See readMe.md	--> *Usage* section for steps that merged, transformed and tidied these datasets into the final dataset.
 
 ##Variables##
 ---
