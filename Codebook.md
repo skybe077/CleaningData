@@ -66,27 +66,14 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 | **Type** | Double | Double | Double | 
 
 
+| **Label** | **tBodyAccMag_mean**  | **tGravityAccMag_mean** | **tBodyAccJerkMag_mean** | **tBodyGyroMag_mean** |
+|:------------- | ------------- | ------------- | ------------- |------------- |
+| **Description** | Time set for mean Body Acceleration Magnitude.  | Time set for mean Gravity Acceleration Magnitude.  | Time set for mean Body Acceleration Jerk Magnitude. | Time set for mean Body Gyroscope Magnitude. |
+| **Type** | Double | Double | Double | Double | 
 
-**tBodyAccMag_mean**
-Time set for mean Body Acceleration Magnitude.
 
-*values*
-Double 
 
-**tGravityAccMag_mean**
-Time set for mean Gravity Acceleration Magnitude. 
 
-*values*
-Double 
-
-**tBodyAccJerkMag_mean**
-Time set for mean Body Acceleration Jerk Magnitude. 
-
-*values*
-Double 
-
-**tBodyGyroMag_mean**
-Time set for mean Body Gyroscope Magnitude. 
 
 *values*
 Double 
