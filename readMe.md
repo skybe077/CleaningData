@@ -42,7 +42,7 @@ Data fields (66): The average of Mean and Standard Deviation measurements
 
 URL: https://github.com/skybe077/CleaningData/blob/master/tidyData_ET.csv
 
-####3. Codebook.md#### 
+####3. Codebook.md  
 
 Explanation of variables and data in tidyData_ET dataset.
 
