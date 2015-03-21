@@ -1,10 +1,15 @@
 #Course Project CodeBook#
 ---
+
 Course: Getting and Cleaning Data 
+
 User: Edwin Tam 
+
 Github URL: https://github.com/skybe077/CleaningData
+
 Coursera profile: https://www.coursera.org/user/i/85db0de11cdecf496c46ca1f28de7d6a
----
+
+
 
 ##Codebook Overview##
 ---
