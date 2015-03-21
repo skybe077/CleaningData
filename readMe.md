@@ -52,6 +52,8 @@ URL: https://github.com/skybe077/CleaningData/blob/master/Codebook.md
 
 Overview of what's going on. You're reading me now! 
 
+URL: https://github.com/skybe077/CleaningData/blob/master/readMe.md
+
 ##Usage##
 ---
 

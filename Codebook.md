@@ -11,11 +11,19 @@ Coursera profile: https://www.coursera.org/user/i/85db0de11cdecf496c46ca1f28de7d
 
 
 
+
 ##Codebook Overview##
 ---
 Codebook based on data extracted and transformed from "Human Activity Recognition Using Smartphones Dataset" training and test datasets.
 The spreadsheet (tidyData_ET.csv) contains 180 observations - one observation per (subject, activity, origin) metadata set.
 Each observation has 66 measurements (e.g. tBodyAcc_mean_X, tGravityAcc_mean_Y etc) averaged from the originating dataset. 
+
+Useful Files
+
+**1. Project.R**: https://github.com/skybe077/CleaningData/blob/master/Project.R
+**2. tidyData_ET.csv**: https://github.com/skybe077/CleaningData/blob/master/tidyData_ET.csv
+**3. Codebook.md**: https://github.com/skybe077/CleaningData/blob/master/Codebook.md
+**4. Readme.md**: https://github.com/skybe077/CleaningData/blob/master/readMe.md
 
 ##Transformation##
 ---
@@ -23,10 +31,10 @@ The originating datasets (Test, Train) had the following issues:
 
 1. Not merged with subject and activity datasets
 2. Activity datasets used code instead of descriptive info
-3. Labels were somewhat messy normalised 
+3. Labels were somewhat messy 
 4. Measurements were not collapsed into (subject, activity) pairs
 
-As per instructions, I merged, averaged the datasets, and cleaned up the labels. 
+As per instructions, I merged and averaged the datasets, and cleaned up the labels. 
 The only addition is the "origin" variable which identifies the originating dataset. 
 
 See readMe.txt	--> *Usage* section for steps that merged, transformed and tidied these datasets into the final dataset.
