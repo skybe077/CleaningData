@@ -42,13 +42,13 @@ Data fields (66): The average of Mean and Standard Deviation measurements
 
 URL: https://github.com/skybe077/CleaningData/blob/master/tidyData_ET.csv
 
-**3. Codebook.md** 
+####3. Codebook.md#### 
 
 Explanation of variables and data in tidyData_ET dataset.
 
 URL: https://github.com/skybe077/CleaningData/blob/master/Codebook.md
 
-**4. Readme.md**
+####4. Readme.md####
 
 Overview of what's going on. You're reading me now! 
 
@@ -91,42 +91,44 @@ This function assumes that the datasets are stored in your current working direc
 
 1 data frame of all measurements with this metadata: subject, activity, origin
 
-**2. mergeSets(trainSet, testSet)** 
+####2. mergeSets(trainSet, testSet#### 
 
 Takes 2 datasets and merges them into 1 super dataset.
 It then subsets Mean, Std Dev measuremtents and metadata (subject, activity, and origin) from this dataset.
 
-Parameters 
-trainSet	Data Frame of training database
-testSet		Data Frame of test database
+**Parameters**
 
-Returns
+1. trainSet: Data Frame of training database
+2. testSet: Data Frame of test database
+
+**Returns**
 1 merged data frame containing only Mean and Std Dev measurements.
 
-3. cleanLabels(allSet1)
+####3. cleanLabels(allSet1)####
 Cleans activity labels & Column names by:
+
 a. Removing "()"
 b. Change "std" to "stdDev", "-" to "_"
 It returns a vector of column names.
 
-Parameters 
-allSet1		Data Frame of merged data
+**Parameters** 
+1. allSet1: Data Frame of merged data
 
-Returns
+**Returns**
 Vector of column names
 
-4. tidyData(allSet1)
+####4. tidyData(allSet1)####
 Splits the dataset by "subject, activity, origin"
 Applies the Mean function to the split dataset
 Combines summarised averages into 1 dataset and returns it to the calling function
 
-Parameters 
-allSet1		Data Frame of merged data
+**Parameters** 
+1. allSet1: Data Frame of merged data
 
-Returns
+**Returns**
 1 data frame with averaged values of measurements. 
 
-5. CourseProj()
+####5. CourseProj()####
 Wrapper function to execute instructions. 
 Writes the tidy dataset to a CSV file.
 
