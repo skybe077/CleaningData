@@ -30,20 +30,17 @@ See readMe.txt	--> *Usage* section for steps that merged, transformed and tidied
 Describes variable labels and what goes into each label.
 These labels are divided into 2 categories: Metadata & Measurements 
 
-####Metadata####
+####Metadata (3)####
 Information about the volunteers and activities that they took part in. It also includes information about the originating dataset. 
 
-Number of Variables: 3
-
-**subject**
+1. **subject**
 unique IDs for volunteers 
-
 *values*
 Number 
 
 Starts from 1 
 
-**activity**
+2. **activity**
 The type of activity that the volunteer is doing 
 
 *values*
@@ -56,7 +53,7 @@ Character
 5. standing
 6. laying
 
-**origin**
+3. **origin**
 Subject source dataset
 
 *values*
@@ -66,12 +63,10 @@ Character
 2. train
 
 
-####Measurements####
+####Measurements (66)####
 Averages of all Means and Std Dev measurements from the originating datasets. 
 
 The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These signals are then divided into body and gravity acceleration signals (tBodyAcc and tGravityAcc)of which Jerk signals (tBodyAccJerk, tBodyGyroJerk) are derived alongside these magnitude (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). A Fast Fourier Transform was applied and derived these variables (fBodyAcc, fBodyAccJerk, fBodyGyro, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag).
-
-Number of Variables: 66
 
 **Naming conventions** 
 
