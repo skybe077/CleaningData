@@ -36,9 +36,9 @@ Information about the volunteers and activities that they took part in. It also 
 
 | **Label** | **Description** |  **Type** | **Value** |
 | :------------- | :------------- | :------------- | :------------- |
-**subject**  | unique IDs for volunteers   | Number | Starts from 1   |
-**activity** | Activity done by volunteer | Character |   walking; walking_upstairs; walking_downstairs; sitting; standing; laying  |
-**origin** | Subject source dataset | Character | test; train | 
+subject  | unique IDs for volunteers   | Number | Starts from 1   |
+activity | Activity done by volunteer | Character |   walking; walking_upstairs; walking_downstairs; sitting; standing; laying  |
+origin | Subject source dataset | Character | test; train | 
 
 
 
@@ -49,64 +49,65 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 
 **Naming conventions** 
 
-1. _mean_ - Mean measurement
-2. _stdDev_ - Standard Deviation measurement
+1. mean - Mean measurement
+2. stdDev - Standard Deviation measurement
 3. _XYZ - Measurements in the corresponding direction
 4. t - time set
 5. f - Fast Fourier Transform set 
 
-#####Mean (Time Set)#####
+#####Time Set#####
+**Mean**
 
 | **Label** | **Description** |  **Type** |
 |:------------- | :------------- | :------------- | 
-**tBodyAcc_mean_XYZ** | Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z).  | Double | 
-**tGravityAcc_mean_XYZ** | Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). |   Double |
-**tBodyAccJerk_mean_XYZ**  | Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Double |
-**tBodyGyro_mean_XYZ** | Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | Double |
-**tBodyGyroJerk_mean_XYZ** |Body Gyroscope Jerk. Individual axis measurements (e.g. _X, _Y, _Z). | Double |
-**tBodyAccMag_mean**  | Body Acceleration Magnitude.  | Double |
-**tGravityAccMag_mean** | Gravity Acceleration Magnitude.  | Double |
-**tBodyAccJerkMag_mean** | Body Acceleration Jerk Magnitude. | Double |
-**tBodyGyroMag_mean**  | Body Gyroscope Magnitude.  | Double |
-**tBodyGyroJerkMag_mean** | Body Gyroscope Jerk Magnitude.  |  Double |
+tBodyAcc_mean_XYZ | Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z).  | Double | 
+tGravityAcc_mean_XYZ | Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). |   Double |
+tBodyAccJerk_mean_XYZ  | Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Double |
+tBodyGyro_mean_XYZ | Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | Double |
+tBodyGyroJerk_mean_XYZ |Body Gyroscope Jerk. Individual axis measurements (e.g. _X, _Y, _Z). | Double |
+tBodyAccMag_mean  | Body Acceleration Magnitude.  | Double |
+tGravityAccMag_mean | Gravity Acceleration Magnitude.  | Double |
+tBodyAccJerkMag_mean | Body Acceleration Jerk Magnitude. | Double |
+tBodyGyroMag_mean  | Body Gyroscope Magnitude.  | Double |
+tBodyGyroJerkMag_mean | Body Gyroscope Jerk Magnitude.  |  Double |
 
-#####Mean (Fast Fourier Time Set)#####
-
-| **Label** | **Description** |  **Type** |
-|:------------- | :------------- | :------------- | 
-**fBodyAcc_mean_XYZ** | Body Acceleration in XYZ axis. Individual axis measurements (e.g. _X, _Y, _Z).  | Double | 
-**fBodyAccJerk_mean_XYZ** | Body Acceleration Jerk in XYZ axis. Individual axis measurements (e.g. _X, _Y, _Z).  | Double |
-**fBodyGyro_mean_XYZ** | Body Gyroscope in XYZ axis. Individual axis measurements (e.g. _X, _Y, _Z).  | Double |
-**fBodyAccMag_mean** | Body Acceleration magnitude. | Double |
-**fBodyBodyAccJerkMag_mean** | Body Acceleration Jerk magnitude. | Double | 
-**fBodyBodyGyroMag_mean** | Body Gyroscope magnitude. | Double | 
-**fBodyBodyGyroJerkMag_mean** | Body Gyroscope Jerk magnitude. | Double | 
-
-
-#####Standard Deviation (Time Series)#####
+**Standard Deviation**
  
 | **Label** | **Description** |  **Type** |
 |:------------- | :------------- | :------------- | 
-**tBodyAcc_stdDev_XYZ** | Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Double |
-**tGravityAcc_stdDev_XYZ** | Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
-**tBodyAccJerk_stdDev_XYZ**  | Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Double | 
-**tBodyGyro_stdDev_XYZ** | Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
-**tBodyGyroJerk_stdDev_XYZ** | Body Gyroscope Jerk. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
-**tBodyAccMag_stdDev** | Body Acceleration magnitude. |Double | 
-**tGravityAccMag_stdDev** | Gravity Acceleration magnitude.  | Double | 
-**tBodyAccJerkMag_stdDev** | Body Acceleration Jerk magnitude. |Double | 
-**tBodyGyroMag_stdDev** | Body Gyroscope magnitude. |Double | 
-**tBodyGyroJerkMag_stdDev** | Body Gyroscope Jerk magnitude. |Double | 
+tBodyAcc_stdDev_XYZ | Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Double |
+tGravityAcc_stdDev_XYZ | Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
+tBodyAccJerk_stdDev_XYZ  | Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Double | 
+tBodyGyro_stdDev_XYZ | Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
+tBodyGyroJerk_stdDev_XYZ | Body Gyroscope Jerk. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
+tBodyAccMag_stdDev | Body Acceleration magnitude. |Double | 
+tGravityAccMag_stdDev | Gravity Acceleration magnitude.  | Double | 
+tBodyAccJerkMag_stdDev | Body Acceleration Jerk magnitude. |Double | 
+tBodyGyroMag_stdDev | Body Gyroscope magnitude. |Double | 
+tBodyGyroJerkMag_stdDev | Body Gyroscope Jerk magnitude. |Double | 
 
-#####Standard Deviation (Fast Fourier Time Series)#####
+####Fast Fourier Time Set####
+**Mean**
 
 | **Label** | **Description** |  **Type** |
 |:------------- | :------------- | :------------- | 
-**fBodyAcc_stdDev_XYZ** |  Body Acceleration in XYZ axis. Individual axis measurements (e.g. _X, _Y, _Z).  |  Double |
-**fBodyAccJerk_stdDev_XYZ** | Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  |  Double |
-**fBodyGyro_stdDev_XYZ** | Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). |  Double |
-**fBodyAccMag_stdDev** | Body Acceleration magnitude.  |  Double |
-**fBodyBodyAccJerkMag_stdDev** | Body Acceleration Jerk magnitude. |  Double |
-**fBodyBodyGyroMag_stdDev** | Body Gyroscope magnitude. | Double |
-**fBodyBodyGyroJerkMag_stdDev** | Body Gyroscope Jerk magnitude. |   Double |
+fBodyAcc_mean_XYZ | Body Acceleration in XYZ axis. Individual axis measurements (e.g. _X, _Y, _Z).  | Double | 
+fBodyAccJerk_mean_XYZ | Body Acceleration Jerk in XYZ axis. Individual axis measurements (e.g. _X, _Y, _Z).  | Double |
+fBodyGyro_mean_XYZ | Body Gyroscope in XYZ axis. Individual axis measurements (e.g. _X, _Y, _Z).  | Double |
+fBodyAccMag_mean | Body Acceleration magnitude. | Double |
+fBodyBodyAccJerkMag_mean | Body Acceleration Jerk magnitude. | Double | 
+fBodyBodyGyroMag_mean | Body Gyroscope magnitude. | Double | 
+fBodyBodyGyroJerkMag_mean | Body Gyroscope Jerk magnitude. | Double | 
+
+**Standard Deviation**
+
+| **Label** | **Description** |  **Type** |
+|:------------- | :------------- | :------------- | 
+fBodyAcc_stdDev_XYZ |  Body Acceleration in XYZ axis. Individual axis measurements (e.g. _X, _Y, _Z).  |  Double |
+fBodyAccJerk_stdDev_XYZ | Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  |  Double |
+fBodyGyro_stdDev_XYZ | Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). |  Double |
+fBodyAccMag_stdDev | Body Acceleration magnitude.  |  Double |
+fBodyBodyAccJerkMag_stdDev | Body Acceleration Jerk magnitude. |  Double |
+fBodyBodyGyroMag_stdDev | Body Gyroscope magnitude. | Double |
+fBodyBodyGyroJerkMag_stdDev | Body Gyroscope Jerk magnitude. |   Double |
 
