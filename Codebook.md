@@ -33,7 +33,7 @@ These labels are divided into 2 categories: Metadata & Measurements
 ####Metadata####
 Information about the volunteers and activities that they took part in. It also includes information about the originating dataset. 
 
-# of Variables: 3
+Number of Variables: 3
 
 **subject**
 unique IDs for volunteers 
@@ -71,7 +71,7 @@ Averages of all Means and Std Dev measurements from the originating datasets.
 
 The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These signals are then divided into body and gravity acceleration signals (tBodyAcc and tGravityAcc)of which Jerk signals (tBodyAccJerk, tBodyGyroJerk) are derived alongside these magnitude (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). A Fast Fourier Transform was applied and derived these variables (fBodyAcc, fBodyAccJerk, fBodyGyro, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag).
 
-# of Variables: 66
+Number of Variables: 66
 
 **Naming conventions** 
 
@@ -97,154 +97,193 @@ Double
 	
 **tGravityAcc_mean_XYZ**
 3 measurements of a Time set for mean Gravity Acceleration in XYZ axis. 
+
+*values*
 Double 
 
-tBodyAccJerk_mean_X
-tBodyAccJerk_mean_Y
-tBodyAccJerk_mean_Z
+**tBodyAccJerk_mean_XYZ**
 Time set for mean Body Acceleration Jerk in XYZ axis. 
+
+*values*
 Double 
 
-tBodyGyro_mean_X
-tBodyGyro_mean_Y
-tBodyGyro_mean_Z
+**tBodyGyro_mean_XYZ**
 Time set for mean Body Gyroscope in XYZ axis. 
+
+*values*
 Double 
 
-tBodyGyroJerk_mean_X
-tBodyGyroJerk_mean_Y
-tBodyGyroJerk_mean_Z
+**tBodyGyroJerk_mean_XYZ**
 Time set for mean Body Gyroscope Jerk in XYZ axis. 
+
+*values*
 Double 
 
-tBodyAccMag_mean
+**tBodyAccMag_mean**
 Time set for mean Body Acceleration Magnitude.
+
+*values*
 Double 
 
-tGravityAccMag_mean
+**tGravityAccMag_mean**
 Time set for mean Gravity Acceleration Magnitude. 
+
+*values*
 Double 
 
-tBodyAccJerkMag_mean
+**tBodyAccJerkMag_mean**
 Time set for mean Body Acceleration Jerk Magnitude. 
+
+*values*
 Double 
 
-tBodyGyroMag_mean
+**tBodyGyroMag_mean**
 Time set for mean Body Gyroscope Magnitude. 
+
+*values*
 Double 
 
-tBodyGyroJerkMag_mean
+**tBodyGyroJerkMag_mean**
 Time set for mean Body Gyroscope Jerk Magnitude.
+
+*values*
 Double 
 
-fBodyAcc_mean_X
-fBodyAcc_mean_Y
-fBodyAcc_mean_Z
+**fBodyAcc_mean_XYZ**
 Fast Fourier Time set for mean Body Acceleration in XYZ axis.
+
+*values*
 Double 
 
-fBodyAccJerk_mean_X
-fBodyAccJerk_mean_Y
-fBodyAccJerk_mean_Z
+**fBodyAccJerk_mean_XYZ**
 Fast Fourier Time set for mean Body Acceleration Jerk in XYZ axis.
+
+*values*
 Double 
 
-fBodyGyro_mean_X
-fBodyGyro_mean_Y
-fBodyGyro_mean_Z
+**fBodyGyro_mean_XYZ**
 Fast Fourier Time set for mean Body Gyroscope in XYZ axis.
+
+*values*
 Double 
 
-fBodyAccMag_mean
+**fBodyAccMag_mean**
 Fast Fourier Time set for mean Body Acceleration magnitude.
+
+*values*
 Double 
 
-fBodyBodyAccJerkMag_mean
+**fBodyBodyAccJerkMag_mean**
 Fast Fourier Time set for mean Body Acceleration Jerk magnitude.
+
+*values*
 Double 
 
-fBodyBodyGyroMag_mean
+**fBodyBodyGyroMag_mean**
 Fast Fourier Time set for mean Body Gyroscope magnitude.
+
+*values*
 Double 
 
-fBodyBodyGyroJerkMag_mean
+**fBodyBodyGyroJerkMag_mean**
 Fast Fourier Time set for mean Body Gyroscope Jerk magnitude.
+
+*values*
 Double 
 
-tGravityAcc_stdDev_X
-tGravityAcc_stdDev_Y
-tGravityAcc_stdDev_Z
+**tGravityAcc_stdDev_XYZ**
 Time set for standard deviation Gravity Acceleration in XYZ axis. 
+
+*values*
 Double 
 
-tBodyAccJerk_stdDev_X
-tBodyAccJerk_stdDev_Y
-tBodyAccJerk_stdDev_Z
+**tBodyAccJerk_stdDev_XYZ**
 Time set for standard deviation Body Acceleration Jerk in XYZ axis. 
+
+*values*
 Double 
 
-tBodyGyro_stdDev_X
-tBodyGyro_stdDev_Y
-tBodyGyro_stdDev_Z
+**tBodyGyro_stdDev_XYZ**
 Time set for standard deviation Body Gyroscope in XYZ axis. 
+
+*values*
 Double 
 
-tBodyGyroJerk_stdDev_X
-tBodyGyroJerk_stdDev_Y
-tBodyGyroJerk_stdDev_Z
+**tBodyGyroJerk_stdDev_XYZ**
 Time set for standard deviation Body Gyroscope Jerk in XYZ axis. 
+
+*values*
 Double 
 
-tBodyAccMag_stdDev
+**tBodyAccMag_stdDev**
 Time set for standard deviation Body Acceleration magnitude. 
+
+*values*
 Double 
 
-tGravityAccMag_stdDev
+**tGravityAccMag_stdDev**
 Time set for standard deviation Gravity Acceleration magnitude. 
+
+*values*
 Double 
 
-tBodyAccJerkMag_stdDev
+
+**tBodyAccJerkMag_stdDev**
 Time set for standard deviation Body Acceleration Jerk magnitude. 
+
+*values*
 Double 
 
-tBodyGyroMag_stdDev
+**tBodyGyroMag_stdDev**
 Time set for standard deviation Body Gyroscope magnitude. 
+
+*values*
 Double 
 
-tBodyGyroJerkMag_stdDev
+**tBodyGyroJerkMag_stdDev**
 Time set for standard deviation Body Gyroscope Jerk magnitude. 
+
+*values*
 Double 
 
-fBodyAcc_stdDev_X
-fBodyAcc_stdDev_Y
-fBodyAcc_stdDev_Z
+**fBodyAcc_stdDev_XYZ**
 Fast Fourier Time set for standard deviation Body Acceleration in XYZ axis. 
+
+*values*
 Double 
 
-fBodyAccJerk_stdDev_X
-fBodyAccJerk_stdDev_Y
-fBodyAccJerk_stdDev_Z
+**fBodyAccJerk_stdDev_XYZ**
 Fast Fourier Time set for standard deviation Body Acceleration Jerk in XYZ axis. 
+
+*values*
 Double 
 
-fBodyGyro_stdDev_X
-fBodyGyro_stdDev_Y
-fBodyGyro_stdDev_Z
+**fBodyGyro_stdDev_XYZ**
 Fast Fourier Time set for standard deviation Body Gyroscope in XYZ axis. 
+
+*values*
 Double 
 
-fBodyAccMag_stdDev
+**fBodyAccMag_stdDev**
 Fast Fourier Time set for standard deviation Body Acceleration magnitude. 
+
+*values*
 Double 
 
-fBodyBodyAccJerkMag_stdDev
+**fBodyBodyAccJerkMag_stdDev**
 Fast Fourier Time set for standard deviation Body Acceleration Jerk magnitude. 
+
+*values*
 Double 
 
-fBodyBodyGyroMag_stdDev
+**fBodyBodyGyroMag_stdDev**
 Fast Fourier Time set for standard deviation Body Gyroscope magnitude. 
+
+*values*
 Double 
 
-fBodyBodyGyroJerkMag_stdDev
+**fBodyBodyGyroJerkMag_stdDev**
 Fast Fourier Time set for standard deviation Body Gyroscope Jerk magnitude. 
+
+*values*
 Double 
