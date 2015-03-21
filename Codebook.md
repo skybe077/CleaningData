@@ -33,12 +33,15 @@ These labels are divided into 2 categories: Metadata & Measurements
 ####Metadata (3)####
 Information about the volunteers and activities that they took part in. It also includes information about the originating dataset. 
 
-1. **subject**
-unique IDs for volunteers 
-*values*
-Number 
+| **subject**  | Second Header |
+| ------------- | ------------- |
+| unique IDs for volunteers   | Content Cell  |
+| *values*: Number | Content Cell  |
+|Starts from 1   | asdasd |
 
-Starts from 1 
+1. 
+
+
 
 2. **activity**
 The type of activity that the volunteer is doing 
@@ -52,6 +55,7 @@ Character
 4. sitting
 5. standing
 6. laying
+
 
 3. **origin**
 Subject source dataset
