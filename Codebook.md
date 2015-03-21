@@ -1,16 +1,7 @@
 #Course Project CodeBook#
 
-1. Problems with originating datasets 
- - variable names 
- - data representations 
- 
- 2. Variable labels, and data explanations 
- - 69 columns!!!! Hmmm....
- 
- 3. Source material
-
 ##Codebook Overview##
-==========================================
+---
 Codebook based on data extracted and transformed from "Human Activity Recognition Using Smartphones Dataset" training and test datasets.
 The spreadsheet (tidyData_ET.csv) contains 180 observations - one observation per (subject, activity, origin) metadata set.
 Each observation has 66 measurements (e.g. tBodyAcc_mean_X, tGravityAcc_mean_Y etc) averaged from the originating dataset. 
@@ -18,6 +9,7 @@ Each observation has 66 measurements (e.g. tBodyAcc_mean_X, tGravityAcc_mean_Y e
 ##Transformation##
 ---
 The originating datasets (Test, Train) had the following issues:
+
 1. Not merged with subject and activity datasets
 2. Activity datasets used code instead of descriptive info
 3. Labels were somewhat messy normalised 
@@ -49,13 +41,16 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 
 **Naming conventions** 
 
-1. mean - Mean measurement
-2. stdDev - Standard Deviation measurement
+1. _mean - Mean measurement
+2. _stdDev - Standard Deviation measurement
 3. _XYZ - Measurements in the corresponding direction
 4. t - time set
 5. f - Fast Fourier Transform set 
 
-#####Time Set#####
+_e.g. tBodyAcc_mean_Y = Average of Body Linear Acceleration on the Y-axis (time set)_
+
+####Time Set####
+
 **Mean**
 
 | **Label** | **Description** |  **Type** |

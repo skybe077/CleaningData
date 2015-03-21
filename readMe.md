@@ -1,14 +1,13 @@
-Course Project Readme 
-
-=========================================================================
+#Course Project Readme#
+---
 Course: Getting and Cleaning Data 
 User: Edwin Tam 
 Github URL: https://github.com/skybe077/CleaningData
 Coursera profile: https://www.coursera.org/user/i/85db0de11cdecf496c46ca1f28de7d6a
+---
 
-=========================================================================
-
-Overview  
+##Overview##
+---  
 This course project focuses on creating a tidy dataset from 2 datasets in "Human Activity Recognition Using Smartphones Dataset".
 Instructions are to:
 1. Merge Train and Test datasets
@@ -19,8 +18,8 @@ Instructions are to:
 
 This Readme describes the files, usage and functions to fulfil above instructions. 
 
-Files 
-=========================================================================
+##Files##
+---
 1. Project.R
 R file that contains wrapper and helper functions used to merge, transform and clean the original datasets
 
@@ -35,8 +34,8 @@ Explanation of variables and data in tidyData_ET dataset.
 4. Readme.md
 Overview of what's going on. You're reading me now! 
 
-Usage
-===========================================================================
+##Usage##
+---
 
 1. Run wrapper function to execute  
 	Function: CourseProj()
@@ -50,10 +49,11 @@ Usage
 	Function: tidyData()
 6. Write tidy dataset to CSV file. Return tidied dataset to calling environment
 
-Functions 
-=========================================================================
+##Functions##
+---
 Library: dplyr
-1. getDataSet(type="test", x = "X_test", y = "y_test", sub = "subject_test")
+
+**1. getDataSet(type="test", x = "X_test", y = "y_test", sub = "subject_test")**
 Return a dataset that collates subject, activity and measurements for a Dataset type. 
 The dataset also includes an "origin" column documenting the subject's original Dataset type (either Test or "Train") 
 This function assumes that the datasets are stored in your current working directory. Default dataset to merge is "Test". 
@@ -65,7 +65,7 @@ x, y, sub  	filenames to read data into R
 Returns
 1 data frame of all measurements with this metadata: subject, activity, origin
 
-2. mergeSets(trainSet, testSet) 
+**2. mergeSets(trainSet, testSet)** 
 Takes 2 datasets and merges them into 1 super dataset.
 It then subsets Mean, Std Dev measuremtents and metadata (subject, activity, and origin) from this dataset.
 
