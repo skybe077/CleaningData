@@ -122,10 +122,11 @@ Fast Fourier Time set for mean Body Gyroscope Jerk magnitude.
 Double 
 
 
-| **Label** | **tBodyAcc_stdDev_XYZ** | **tGravityAcc_stdDev_XYZ** |  
-|:------------- | ------------- | ------------- | 
-| **Description** | Time set for standard deviation Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for standard deviation Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). |  
-| **Type** | Double | Double |
+| **Label** | **Description** |  **Type** |
+|:------------- | :------------- | :------------- | 
+**tBodyAcc_stdDev_XYZ** | Time set for standard deviation Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Double |
+**tGravityAcc_stdDev_XYZ** | Time set for standard deviation Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Double | 
+
 
 
 | **Label** | **tBodyAccJerk_stdDev_XYZ**  | **tBodyGyro_stdDev_XYZ** | **tBodyGyroJerk_stdDev_XYZ** |
