@@ -123,7 +123,7 @@ Double
 
 
 | **Label** | **tBodyAcc_stdDev_XYZ** | **tGravityAcc_stdDev_XYZ** | | 
-|:------------- | ------------- | ------------- | ------------- |
+|:------------- | ------------- | ------------- | 
 | **Description** | Time set for standard deviation Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for standard deviation Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). |  | 
 | **Type** | Double | Double | Double | 
 
@@ -139,58 +139,25 @@ Double
 | **Type** | Double | Double | Double | 
 
 
+| **Label** | **tBodyGyroMag_stdDev** | **tBodyGyroJerkMag_stdDev** | |
+|:------------- | ------------- | ------------- | ------------- |
+| **Description** | Time set for standard deviation Body Gyroscope magnitude. | Time set for standard deviation Body Gyroscope Jerk magnitude. | | 
+| **Type** | Double | Double | Double | 
 
 
-**tBodyGyroMag_stdDev**
-Time set for standard deviation Body Gyroscope magnitude. 
+| **Label** | **fBodyAcc_stdDev_XYZ** | **fBodyAccJerk_stdDev_XYZ** | **fBodyGyro_stdDev_XYZ** |
+|:------------- | ------------- | ------------- | ------------- |
+| **Description** | Fast Fourier Time set for standard deviation Body Acceleration in XYZ axis. Individual axis measurements (e.g. _X, _Y, _Z).  | Fast Fourier Time set for standard deviation Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Fast Fourier Time set for standard deviation Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | 
+| **Type** | Double | Double | Double | 
 
-*values*
-Double 
 
-**tBodyGyroJerkMag_stdDev**
-Time set for standard deviation Body Gyroscope Jerk magnitude. 
+| **Label** | **fBodyAccMag_stdDev** | **fBodyBodyAccJerkMag_stdDev** | **fBodyBodyGyroMag_stdDev** |
+|:------------- | ------------- | ------------- | ------------- |
+| **Description** | Fast Fourier Time set for standard deviation Body Acceleration magnitude.  | Fast Fourier Time set for standard deviation Body Acceleration Jerk magnitude. 
+  | Fast Fourier Time set for standard deviation Body Gyroscope magnitude.  | 
+| **Type** | Double | Double | Double | 
 
-*values*
-Double 
-
-**fBodyAcc_stdDev_XYZ**
-Fast Fourier Time set for standard deviation Body Acceleration in XYZ axis. 
-
-*values*
-Double 
-
-**fBodyAccJerk_stdDev_XYZ**
-Fast Fourier Time set for standard deviation Body Acceleration Jerk in XYZ axis. 
-
-*values*
-Double 
-
-**fBodyGyro_stdDev_XYZ**
-Fast Fourier Time set for standard deviation Body Gyroscope in XYZ axis. 
-
-*values*
-Double 
-
-**fBodyAccMag_stdDev**
-Fast Fourier Time set for standard deviation Body Acceleration magnitude. 
-
-*values*
-Double 
-
-**fBodyBodyAccJerkMag_stdDev**
-Fast Fourier Time set for standard deviation Body Acceleration Jerk magnitude. 
-
-*values*
-Double 
-
-**fBodyBodyGyroMag_stdDev**
-Fast Fourier Time set for standard deviation Body Gyroscope magnitude. 
-
-*values*
-Double 
-
-**fBodyBodyGyroJerkMag_stdDev**
-Fast Fourier Time set for standard deviation Body Gyroscope Jerk magnitude. 
-
-*values*
-Double 
+| **Label** | **fBodyBodyGyroJerkMag_stdDev** |  | *|
+|:------------- | ------------- | ------------- | ------------- |
+| **Description** | Fast Fourier Time set for standard deviation Body Gyroscope Jerk magnitude.   |   |   | 
+| **Type** | Double | Double | Double | 
