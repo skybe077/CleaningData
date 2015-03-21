@@ -37,7 +37,7 @@ Information about the volunteers and activities that they took part in. It also 
 | ------------- | ------------- | ------------- | ------------- |
 | Description | unique IDs for volunteers   | Activity done by volunteer | Subject source dataset | 
 | Type | Number | Character | Character | 
-| Value | Starts from 1   | 1. walking; walking_upstairs; walking_downstairs; sitting; standing; laying | test; train | 
+| Value | Starts from 1   | walking; walking_upstairs; walking_downstairs; sitting; standing; laying  | test; train | 
 
 
 
