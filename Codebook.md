@@ -41,19 +41,6 @@ Information about the volunteers and activities that they took part in. It also 
 
 
 
-
-
-
-3. **origin**
-Subject source dataset
-
-*values*
-Character 
-
-1. test
-2. train
-
-
 ####Measurements (66)####
 Averages of all Means and Std Dev measurements from the originating datasets. 
 
@@ -67,22 +54,26 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 4. t - time set
 5. f - Fast Fourier Transform set 
 
-**tBodyAcc_mean_XYZ**
+| Label | **tBodyAcc_mean_XYZ**  | **tBodyAcc_stdDev_XYZ** | **tGravityAcc_mean_XYZ** |
+| ------------- | ------------- | ------------- | ------------- |
+| Description | u3 measurements of a Time set for average Body Linear Acceleration in XYZ axis  | 3 measurements of a Time set for standard deviation Body Linear Acceleration in XYZ axis| 3 measurements of a Time set for mean Gravity Acceleration in XYZ axis | 
+| Type | Double | Double | Double | 
 
-3 measurements of a Time set for average Body Linear Acceleration in XYZ axis.
+
+
 
 *values*
 Double 
 
-**tBodyAcc_stdDev_XYZ**
 
-3 measurements of a Time set for standard deviation Body Linear Acceleration in XYZ axis. 
+
+. 
 
 *values*
 Double 
 	
-**tGravityAcc_mean_XYZ**
-3 measurements of a Time set for mean Gravity Acceleration in XYZ axis. 
+
+. 
 
 *values*
 Double 
