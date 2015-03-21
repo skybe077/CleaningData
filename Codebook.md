@@ -16,7 +16,7 @@ The spreadsheet (tidyData_ET.csv) contains 180 observations - one observation pe
 Each observation has 66 measurements (e.g. tBodyAcc_mean_X, tGravityAcc_mean_Y etc) averaged from the originating dataset. 
 
 ##Transformation##
-==========================================
+-----------------------------------------
 The originating datasets (Test, Train) had the following issues:
 1. Not merged with subject and activity datasets
 2. Activity datasets used code instead of descriptive info
@@ -35,6 +35,7 @@ Information about the volunteers and activities that they took part in. It also 
 
 **subject**
 unique IDs for volunteers 
+
 *values*
 Number 
 Starts from 1 
