@@ -35,9 +35,9 @@ Information about the volunteers and activities that they took part in. It also 
 
 | Label | **subject**  | **activity** | **origin** |
 | ------------- | ------------- | ------------- | ------------- |
-| Description | unique IDs for volunteers   | Activity done by volunteer | Subject source dataset | 
-| Type | Number | Character | Character | 
-| Value | Starts from 1   | walking; walking_upstairs; walking_downstairs; sitting; standing; laying  | test; train | 
+| **Description** | unique IDs for volunteers   | Activity done by volunteer | Subject source dataset | 
+| **Type** | Number | Character | Character | 
+| **Value** | Starts from 1   | walking; walking_upstairs; walking_downstairs; sitting; standing; laying  | test; train | 
 
 
 
@@ -54,29 +54,13 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 4. t - time set
 5. f - Fast Fourier Transform set 
 
-| Label | **tBodyAcc_mean_XYZ**  | **tBodyAcc_stdDev_XYZ** | **tGravityAcc_mean_XYZ** |
+| **Label** | **tBodyAcc_mean_XYZ**  | **tBodyAcc_stdDev_XYZ** | **tGravityAcc_mean_XYZ** |
 | ------------- | ------------- | ------------- | ------------- |
-| Description | u3 measurements of a Time set for average Body Linear Acceleration in XYZ axis  | 3 measurements of a Time set for standard deviation Body Linear Acceleration in XYZ axis| 3 measurements of a Time set for mean Gravity Acceleration in XYZ axis | 
-| Type | Double | Double | Double | 
+| **Description** | Time set for average Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z).  | Time set for standard deviation Body Linear Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for mean Gravity Acceleration. Individual axis measurements (e.g. _X, _Y, _Z). | 
+| **Type** | Double | Double | Double | 
 
 
 
-
-*values*
-Double 
-
-
-
-. 
-
-*values*
-Double 
-	
-
-. 
-
-*values*
-Double 
 
 **tBodyAccJerk_mean_XYZ**
 Time set for mean Body Acceleration Jerk in XYZ axis. 
