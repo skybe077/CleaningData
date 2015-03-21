@@ -27,22 +27,17 @@ See readMe.txt	--> *Usage* section for steps that merged, transformed and tidied
 
 ##Variables##
 ---
-Describes variable labels and what goes into each label.
-These labels are divided into 2 categories: Metadata & Measurements 
+Describes variable labels and what goes into each label. There are 69 labels. 
+These labels are divided into 2 categories: Metadata (3) & Measurements (66) 
 
 ####Metadata (3)####
 Information about the volunteers and activities that they took part in. It also includes information about the originating dataset. 
 
-| **subject**  | **activity** |
-| ------------- | ------------- |
-| unique IDs for volunteers   | Activity done by volunteer  |
-| *values*: Number | Character |
-|Starts from 1   | 1. walking
-2. walking_upstairs
-3. walking_downstairs 
-4. sitting
-5. standing
-6. laying |
+| Label | **subject**  | **activity** | **origin** |
+| ------------- | ------------- | ------------- | ------------- |
+| Description | unique IDs for volunteers   | Activity done by volunteer | Subject source dataset | 
+| Type | Number | Character | Character | 
+| Value | Starts from 1   | 1. walking; walking_upstairs; walking_downstairs; sitting; standing; laying | test; train | 
 
 
 
