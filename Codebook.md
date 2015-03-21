@@ -16,7 +16,7 @@ The spreadsheet (tidyData_ET.csv) contains 180 observations - one observation pe
 Each observation has 66 measurements (e.g. tBodyAcc_mean_X, tGravityAcc_mean_Y etc) averaged from the originating dataset. 
 
 ##Transformation##
------------------------------------------
+---
 The originating datasets (Test, Train) had the following issues:
 1. Not merged with subject and activity datasets
 2. Activity datasets used code instead of descriptive info
@@ -26,12 +26,14 @@ The originating datasets (Test, Train) had the following issues:
 See readMe.txt	--> *Usage* section for steps that merged, transformed and tidied these datasets into the final dataset.
 
 ##Variables##
-==========================================
+---
 Describes variable labels and what goes into each label.
 These labels are divided into 2 categories: Metadata & Measurements 
 
-###Metadata###
-Information about the volunteers and activities that they took part in. It also includes the originating dataset. 
+####Metadata####
+Information about the volunteers and activities that they took part in. It also includes information about the originating dataset. 
+
+# of Variables: 3
 
 **subject**
 unique IDs for volunteers 
@@ -64,12 +66,15 @@ Character
 2. train
 
 
-###Measurements###
+####Measurements####
 Averages of all Means and Std Dev measurements from the originating datasets. 
 
 The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These signals are then divided into body and gravity acceleration signals (tBodyAcc and tGravityAcc)of which Jerk signals (tBodyAccJerk, tBodyGyroJerk) are derived alongside these magnitude (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). A Fast Fourier Transform was applied and derived these variables (fBodyAcc, fBodyAccJerk, fBodyGyro, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag).
 
+# of Variables: 66
+
 **Naming conventions** 
+
 1. _mean_ - Mean measurement
 2. _stdDev_ - Standard Deviation measurement
 3. _XYZ - Measurements in the corresponding direction
@@ -77,11 +82,17 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 5. f - Fast Fourier Transform set 
 
 **tBodyAcc_mean_XYZ**
+
 3 measurements of a Time set for average Body Linear Acceleration in XYZ axis.
+
+*values*
 Double 
 
 **tBodyAcc_stdDev_XYZ**
+
 3 measurements of a Time set for standard deviation Body Linear Acceleration in XYZ axis. 
+
+*values*
 Double 
 	
 **tGravityAcc_mean_XYZ**
