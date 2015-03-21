@@ -60,25 +60,12 @@ The data is based on accelerometer (tAcc) and gyroscope (tGyro) signals. These s
 | **Type** | Double | Double | Double | 
 
 
+| **Label** | **tBodyAccJerk_mean_XYZ**  | **tBodyGyro_mean_XYZ** | **tBodyGyroJerk_mean_XYZ** |
+| ------------- | ------------- | ------------- | ------------- |
+| **Description** | Time set for mean Body Acceleration Jerk. Individual axis measurements (e.g. _X, _Y, _Z).  | Time set for mean Body Gyroscope. Individual axis measurements (e.g. _X, _Y, _Z). | Time set for mean Body Gyroscope Jerk. Individual axis measurements (e.g. _X, _Y, _Z). | 
+| **Type** | Double | Double | Double | 
 
 
-**tBodyAccJerk_mean_XYZ**
-Time set for mean Body Acceleration Jerk in XYZ axis. 
-
-*values*
-Double 
-
-**tBodyGyro_mean_XYZ**
-Time set for mean Body Gyroscope in XYZ axis. 
-
-*values*
-Double 
-
-**tBodyGyroJerk_mean_XYZ**
-Time set for mean Body Gyroscope Jerk in XYZ axis. 
-
-*values*
-Double 
 
 **tBodyAccMag_mean**
 Time set for mean Body Acceleration Magnitude.
