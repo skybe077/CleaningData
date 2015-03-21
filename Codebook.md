@@ -38,12 +38,15 @@ unique IDs for volunteers
 
 *values*
 Number 
+
 Starts from 1 
 
 **activity**
 The type of activity that the volunteer is doing 
+
 *values*
 Character 
+
 1. walking
 2. walking_upstairs
 3. walking_downstairs 
@@ -53,8 +56,10 @@ Character
 
 **origin**
 Subject source dataset
+
 *values*
 Character 
+
 1. test
 2. train
 
