@@ -94,7 +94,8 @@ This function assumes that the datasets are stored in your current working direc
 ####2. mergeSets(trainSet, testSet) 
 
 Takes 2 datasets and merges them into 1 super dataset.
-It then subsets Mean, Std Dev measuremtents and metadata (subject, activity, and origin) from this dataset.
+It then subsets Mean, Std Dev measuremtents and metadata (subject, activity, and origin) from this dataset. 
+Calls CleanLabels() to clean up variable labels.
 
 **Parameters**
 
@@ -107,9 +108,8 @@ It then subsets Mean, Std Dev measuremtents and metadata (subject, activity, and
 ####3. cleanLabels(colT, allSet1)####
 Cleans activity labels & Column names by:
 
-a. Removing "()"
-b. Change "std" to "stdDev", "-" to "_"
-It returns a vector of column names.
+1. Removing "()"
+2. Change "std" to "stdDev", "-" to "_"
 
 **Parameters** 
 1. ColT: Vector of column names
