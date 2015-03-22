@@ -8,15 +8,13 @@ CourseProj <- function () {
   trainSet <- getDataSet(type="train", x = "X_train", y = "y_train", sub = "subject_train")
 
   # merge both datasets into 1 by "appendage-ing" 
-  allSet1 <- mergeSets(trainSet, testSet)
-    
-  # Clean up activity labels & Column names
+  # Calls CleanLabel to clean up activity labels & Column names
   # Remove (), change std to stdDev, - to _, leave the rest  
-  colnames(allSet1) <- cleanLabels(allSet1)
-  
+  allSet1 <- mergeSets(trainSet, testSet)
+      
   # factor out Subject + activity, average values   
   allSet2 <- tidyData(allSet1)
-  write.csv(allSet2, file="tidyData.csv")
+  write.table(allSet2, file="tidyData_ET.txt", row.names = FALSE)
   
   allSet2
 }
@@ -24,26 +22,29 @@ CourseProj <- function () {
 
 # factor out Subbject + activity, average values 
 tidyData <- function(allSet1){
-  allSet2 <- aggregate(allSet1, by = list(allSet1$subject, allSet1$activity, allSet1$origin), FUN = mean)
+  allSet2 <- aggregate(allSet1, by=list(allSet1$subject, allSet1$activity, allSet1$origin), FUN=mean)
   
   allSet2$activity = NULL
   allSet2$subject = NULL
   allSet2$origin = NULL
   
   colnames(allSet2)[1:3] <- c("subject", "activity", "origin")
+
+  allSet2
 }
 
 # Clean up activity labels & Column names
 # Remove (), change std to stdDev, - to _, leave the rest  
-cleanLabels <- function(allSet1){
+cleanLabels <- function(colT, allSet1){
   allSet1$activity <- tolower(allSet1$activity)
-
+    
   colT<- gsub("[^[:alnum:][:blank:]+?&/\\-]", "", colT)
   colT<- gsub("-", "_", colT)
   colT<- gsub("std", "stdDev", colT)
   
-  colT
+  colnames(allSet1) <-  colT
 
+  allSet1
 }
 
 # merge both datasets into 1 by "appendage-ing" 
@@ -56,6 +57,8 @@ mergeSets <- function(trainSet, testSet){
   colT = c(meanT, stdT, "activity", "subject", "origin")
   
   allSet1<- allSet[, colT]
+  
+  allSet1<- cleanLabels(colT, allSet1)
   
   allSet1
 }
