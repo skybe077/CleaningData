@@ -72,6 +72,8 @@ https://github.com/skybe077/CleaningData/blob/master/readMe.md
 	Function: tidyData()
 5. Write tidy dataset to txt file. Return tidied dataset to calling environment
 
+Note: Your train, test, and UCI HAR Dataset folders should be in your working directory. 
+
 ##Functions##
 ---
 Library: dplyr
