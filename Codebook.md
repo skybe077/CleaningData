@@ -22,7 +22,7 @@ Each observation has 66 measurements (e.g. tBodyAcc_mean_X, tGravityAcc_mean_Y e
 
 **1. Project.R**: https://github.com/skybe077/CleaningData/blob/master/Project.R
 
-**2. tidyData_ET.csv**: https://github.com/skybe077/CleaningData/blob/master/tidyData_ET.csv
+**2. tidyData_ET.csv**: https://github.com/skybe077/CleaningData/blob/master/tidyData_ET.txt
 
 **3. Codebook.md**: https://github.com/skybe077/CleaningData/blob/master/Codebook.md
 
@@ -40,7 +40,7 @@ The originating datasets (Test, Train) had the following issues:
 As per instructions, I merged and averaged the datasets, and cleaned up the labels. 
 The only addition is the "origin" variable which identifies the originating dataset. 
 
-See readMe.md	--> *Usage* section for steps that merged, transformed and tidied these datasets into the final dataset.
+See readMe.md --> *Usage* section for steps that merged, transformed and tidied these datasets into the final dataset.
 
 ##Variables##
 ---

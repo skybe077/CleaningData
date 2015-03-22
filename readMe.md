@@ -32,7 +32,7 @@ This Readme describes the files, usage and functions to fulfil above instruction
 
 R file that contains wrapper and helper functions used to merge, transform and clean the original datasets
 
-URL: https://github.com/skybe077/CleaningData/blob/master/Project.R
+https://github.com/skybe077/CleaningData/blob/master/Project.R
 
 ####2. tidyData_ET.csv####
 
@@ -40,19 +40,19 @@ Tidied dataset for evaluation. There are 69 fields with 180 observations.
 Metadata fields (3): subject, activity, origin.
 Data fields (66): The average of Mean and Standard Deviation measurements 
 
-URL: https://github.com/skybe077/CleaningData/blob/master/tidyData_ET.csv
+https://github.com/skybe077/CleaningData/blob/master/tidyData_ET.txt
 
 ####3. Codebook.md  
 
 Explanation of variables and data in tidyData_ET dataset.
 
-URL: https://github.com/skybe077/CleaningData/blob/master/Codebook.md
+https://github.com/skybe077/CleaningData/blob/master/Codebook.md
 
 ####4. Readme.md####
 
 Overview of what's going on. You're reading me now! 
 
-URL: https://github.com/skybe077/CleaningData/blob/master/readMe.md
+https://github.com/skybe077/CleaningData/blob/master/readMe.md
 
 ##Usage##
 ---
@@ -64,15 +64,13 @@ URL: https://github.com/skybe077/CleaningData/blob/master/readMe.md
 
 	Function: getDataSet(...)
 3. Merge Test and Train datasets into 1 big dataset - allSet. Extract Mean and Std Dev measurements from this dataset.
+	Also calls CleanLabels to clean up variable labels
 
 	Function: mergeSet()
-4. Clean up variable labels in allSet dataset. 
-
-	Function: cleanLabels()
-5. Find the average of measurements in allSet Dataset. Categorise observations with metadata: "subject", "activity", "origin" 
+4. Find the average of measurements in allSet Dataset. Categorise observations with metadata: "subject", "activity", "origin" 
 
 	Function: tidyData()
-6. Write tidy dataset to CSV file. Return tidied dataset to calling environment
+5. Write tidy dataset to txt file. Return tidied dataset to calling environment
 
 ##Functions##
 ---
@@ -106,7 +104,7 @@ It then subsets Mean, Std Dev measuremtents and metadata (subject, activity, and
 **Returns**
 1 merged data frame containing only Mean and Std Dev measurements.
 
-####3. cleanLabels(allSet1)####
+####3. cleanLabels(colT, allSet1)####
 Cleans activity labels & Column names by:
 
 a. Removing "()"
@@ -114,10 +112,11 @@ b. Change "std" to "stdDev", "-" to "_"
 It returns a vector of column names.
 
 **Parameters** 
-1. allSet1: Data Frame of merged data
+1. ColT: Vector of column names
+2. allSet1: Data Frame of merged data
 
 **Returns**
-Vector of column names
+1 data frame with cleaned variable labels. 
 
 ####4. tidyData(allSet1)####
 Splits the dataset by "subject, activity, origin"
