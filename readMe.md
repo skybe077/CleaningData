@@ -112,6 +112,7 @@ Cleans activity labels & Column names by:
 2. Change "std" to "stdDev", "-" to "_"
 
 **Parameters** 
+
 1. ColT: Vector of column names
 2. allSet1: Data Frame of merged data
 
@@ -124,6 +125,7 @@ Applies the Mean function to the split dataset
 Combines summarised averages into 1 dataset and returns it to the calling function
 
 **Parameters** 
+
 1. allSet1: Data Frame of merged data
 
 **Returns**
