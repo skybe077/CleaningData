@@ -34,7 +34,7 @@ R file that contains wrapper and helper functions used to merge, transform and c
 
 https://github.com/skybe077/CleaningData/blob/master/Project.R
 
-####2. tidyData_ET.csv####
+####2. tidyData_ET.txt####
 
 Tidied dataset for evaluation. There are 69 fields with 180 observations. 
 Metadata fields (3): subject, activity, origin.
